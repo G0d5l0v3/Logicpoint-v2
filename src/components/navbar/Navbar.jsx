@@ -17,7 +17,7 @@ const Navbar = ({ style }) => {
           : "sticky top-0 z-10 font-[exo]"
       }
     >
-      <nav className={isOpen ? "bg-[#ece7eb] h-screen relative" : ""}>
+      <nav className={isOpen ? "bg-[#ece7eb] h-screen relative lg:hidden" : ""}>
         <div className="flex justify-between px-[1rem] py-[.2rem] lg:hidden">
           <img
             src={logo}
