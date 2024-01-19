@@ -1,17 +1,18 @@
 import { NavLink } from "react-router-dom";
 
-const Links = ({ items, style }) => {
+const Links = ({ items, style, onClick }) => {
   return (
     <div className={style}>
-      {items.map((item, index) => (
+      {items.map((item) => (
         <NavLink
-          key={index}
+          key={item.id}
           to={item.to}
           className={({isActive}) => {
             return isActive
               ? "text-[#5D1570] font-[exo] font-semibold"
               : "text-[#181830] hover:opacity-[0.7] font-[exo] font-semibold";
           }}
+          onClick ={onClick}
         >
           {" "}
           {item.name}{" "}

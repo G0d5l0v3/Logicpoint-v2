@@ -3,12 +3,17 @@ import Hamburger from "hamburger-react";
 import Links from "./Links";
 import NavItems from "./NavItems";
 import Button from "../button/Button";
-import logo from "../../assets/images/Logicpoint-Logo.svg";
+import Logo from "../logo/Logo";
+import { motion } from "framer-motion";
 import { useScrollPosition } from "../../hooks/useScrollPosition";
 
-const Navbar = ({ style }) => {
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const scrollPosition = useScrollPosition();
+  const handleNavLinkClick = () => {
+    setIsOpen(false);
+  };
+
   return (
     <header
       className={
@@ -18,15 +23,8 @@ const Navbar = ({ style }) => {
       }
     >
       <nav className={isOpen ? "bg-[#ece7eb] h-screen relative lg:hidden" : ""}>
-        <div className="flex justify-between px-[1rem] py-[.2rem] lg:hidden">
-          <img
-            src={logo}
-            loading="lazy"
-            decoding="async"
-            alt="company-logo"
-            className="w-20 h-10"
-          />
-
+        <div className="flex items-center justify-between px-[1rem] py-[.2rem] lg:hidden">
+          <Logo style="w-20 h-10 border-r px-2"/>
           <Hamburger
             rounded
             toggled={isOpen}
@@ -35,15 +33,18 @@ const Navbar = ({ style }) => {
             easing="ease-in"
           />
         </div>
+
         {isOpen && (
-        <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] gap-10 flex flex-col">
-          <Links items={NavItems} style="flex flex-col justify-center items-center gap-10" />
-          <Button color={"black"} description="Contact Us" />
-        </div>
-      )}
+          <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] gap-10 flex flex-col ">
+            <Links
+              items={NavItems}
+              style="flex flex-col justify-center items-center gap-10"
+              onClick = {handleNavLinkClick}
+            />
+            <Button color={"black"} description="Contact Us" />
+          </div>
+        )}
       </nav>
-
-
     </header>
   );
 };
