@@ -14,16 +14,17 @@ const ImageComponent = ({ src, hash, alt, style }) => {
 
   return (
     <>
-      <Blurhash
-        hash={hash}
-        width={250}
-        height={250}
-        resolutionX={32}
-        resolutionY={32}
-        punch={1}
-        style={{ display: !imageLoaded ? "block" : "none" }}
-      />
-      
+      <div className="p-[.5rem]">
+        <Blurhash
+          hash={hash}
+          width={250}
+          height={250}
+          resolutionX={32}
+          resolutionY={32}
+          punch={1}
+          style={{ display: !imageLoaded ? "block" : "none" }}
+        />
+      </div>
       <img
         src={src}
         alt={alt}
