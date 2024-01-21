@@ -6,9 +6,7 @@ const OurCommitment = () => {
       <div className="font-[exo] min-h-[70svh] flex flex-col md:flex justify-center pt-[2rem] max-w-[1440px] mx-auto px-[1rem] sm:px-[1rem]">
         <div>
           <h1
-            className="text-white py-[2rem] font-semibold text-2xl sm:text-4xl lg:text-5xl py-[0.3rem] text-[#181830]"
-            data-aos="fade-right"
-            data-aos-duration="1000"
+            className="text-white py-[2rem] font-semibold text-3xl sm:text-4xl lg:text-5xl py-[0.3rem] text-[#181830]"
           >
             <span className="border-b-8 border-[#5D1570] ">Our </span>
             <span>Commitment </span>
