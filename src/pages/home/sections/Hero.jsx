@@ -1,4 +1,5 @@
 import HeroItems from "./HeroItems";
+import '../../../index.css'
 
 const Hero = () => {
   const firstTwoItems = HeroItems.slice(0, 2);
@@ -16,7 +17,7 @@ const Hero = () => {
         <br />
         <span class=" lg:whitespace-normal">IT Solutions</span>
       </h1>
-      <p>
+      <p className="pt-[3rem] font-[exo] text-[#181830] text-4xl sm:text-5xl lg:text-6xl font-semibold leading-tight">
         
       </p>
       </div>
