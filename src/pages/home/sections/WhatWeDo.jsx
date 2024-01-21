@@ -18,7 +18,7 @@ const WhatWeDo = () => {
             </span>{" "}
             <span>We Do</span>
           </h1>
-          <p className="py-[1rem]  lg:whitespace-normal sm:py-[2.5rem] font-[poppins] text-[#181830] text-sm sm:text-md lg:text-lg leading-tight">
+          <p className="py-[3rem] lg:whitespace-normal sm:py-[3rem] font-[poppins] text-[#181830] text-sm sm:text-md lg:text-lg leading-tight">
             <span>There are no limitations in terms of the industries </span>
             <br className="hidden sm:flex" />
             <span>we can assist, as we employ and upskill our teams </span>
