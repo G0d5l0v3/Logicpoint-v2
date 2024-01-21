@@ -8,9 +8,9 @@ const lastTwoItems = HeroItems.slice(2);
 const Hero = () => {
   return (
     <>
-      <div className="flex items-center justify-between px-[1rem] py-[.2rem] lg:max-w-[1240px] lg:mx-[auto]">
+      <div className="flex items-center justify-between px-[1rem] py-[.2rem] lg:max-w-[1240px] lg:mx-[auto] h-[80svh]">
         <div>
-          <h1 className="pt-[3rem] font-[exo] text-[#181830] text-4xl sm:text-5xl lg:whitespace-normal lg:text-6xl font-semibold leading-tight">
+          <h1 className=" font-[exo] text-[#181830] text-4xl sm:text-5xl lg:whitespace-normal lg:text-6xl font-semibold leading-tight">
             <span>Empowering Brands </span>
             <br />
             <span>
@@ -24,7 +24,7 @@ const Hero = () => {
               We deploy the best-in-class technology to meet the unique{" "}
             </span>
             <br className="hidden sm:flex" />
-            <span>needs of each of our clients. Our solutions are at the{" "}</span>
+            <span>needs of each of our clients. Our solutions are at the </span>
             <br className="hidden sm:flex" />
             <span>cutting edge of contact centre business.</span>
           </p>
@@ -40,6 +40,8 @@ const Hero = () => {
                   hash={item.hash}
                   alt={item.alt}
                   style={`md:h-40 lg:h-60 2xl:h-80 w-full ${item.style}`}
+                  width={250}
+                  height={250}
                 />
               </div>
             ))}
@@ -53,6 +55,8 @@ const Hero = () => {
                   hash={item.hash}
                   alt={item.alt}
                   style={`md:h-40 lg:h-60 2xl:h-80 w-full ${item.style}`}
+                  width={250}
+                  height={250}
                 />
               </div>
             ))}
