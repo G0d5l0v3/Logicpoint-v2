@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
 import Button from "../../../components/button/Button";
-import HeroItems from "./HeroItems";
+import HeroItems from "../../../components/items/HeroItems";
 import ImageComponent from "../../../components/imageComponent/ImageComponent";
 
 const firstTwoItems = HeroItems.slice(0, 2);
@@ -21,19 +20,15 @@ const Hero = () => {
             <span>IT Solutions</span>
           </h1>
           <p className="py-[1rem]  lg:whitespace-normal sm:py-[2rem] font-[poppins] text-[#181830] text-sm sm:text-md lg:text-lg leading-tight">
-            <span className="">
+            <span>
               We deploy the best-in-class technology to meet the unique{" "}
             </span>
-            <br />
-            <span className="">
-              needs of each of our clients. Our solutions are at the
-            </span>
-            <br />
-            <span className="">
-              cutting edge of contact centre business.
-            </span>
+            <br className="hidden sm:flex" />
+            <span>needs of each of our clients. Our solutions are at the</span>
+            <br className="hidden sm:flex" />
+            <span>cutting edge of contact centre business.</span>
           </p>
-          <Button description="Connect with Us"/>
+          <Button description="Connect with Us" />
         </div>
 
         <div className="hidden md:grid md:grid-cols-2 md:w-[30%] lg:w-[35%] md:py-[2rem] md:gap-3">
