@@ -11,7 +11,7 @@ body {
 
 @font-face {
   font-family: "exo";
-  src: url('./assets/fonts/Exo/Exo-VariableFont_wght.ttf');
+  src: url('./assets/fonts/Exo/static/Exo-Regular.ttf');
 }
 
 @font-face {
