@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Blurhash } from "react-blurhash";
 
-const ImageComponent = ({ src, hash, alt, style, blurStyle }) => {
+const ImageComponent = ({ src, hash, alt, style }) => {
   const [imageLoaded, setImageLoaded] = useState(false);
 
   useEffect(() => {
@@ -14,7 +14,6 @@ const ImageComponent = ({ src, hash, alt, style, blurStyle }) => {
 
   return (
     <>
-    <div className={blurStyle}>
       <Blurhash
         hash={hash}
         width={250}
@@ -24,7 +23,7 @@ const ImageComponent = ({ src, hash, alt, style, blurStyle }) => {
         punch={1}
         style={{ display: !imageLoaded ? "block" : "none" }}
       />
-      </div>
+      
       <img
         src={src}
         alt={alt}
