@@ -6,7 +6,7 @@ import Navbar from "./components/navbar/Navbar";
 
 const App = () => {
   const HomePage = lazy(() => import("./pages/home/HomePage"));
-  const AboutPage = lazy(() => import("./pages/about-us/AboutPage"))
+  const AboutPage = lazy(() => import("./pages/about-us/AboutPage"));
   return (
     <>
       <Navbar />
