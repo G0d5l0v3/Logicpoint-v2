@@ -20,16 +20,16 @@ const Hero = () => {
             <br />
             <span>IT Solutions</span>
           </h1>
-          <p className="pt-[1rem] sm:py-[2rem] font-[poppins] text-[#181830] text-sm sm:text-md lg:text-lg leading-tight">
-            <span className="lg:whitespace-normal">
+          <p className="py-[1rem]  lg:whitespace-normal sm:py-[2rem] font-[poppins] text-[#181830] text-sm sm:text-md lg:text-lg leading-tight">
+            <span className="">
               We deploy the best-in-class technology to meet the unique{" "}
             </span>
             <br />
-            <span className=" whitespace-normal">
+            <span className="">
               needs of each of our clients. Our solutions are at the
             </span>
             <br />
-            <span className=" whitespace-normal">
+            <span className="">
               cutting edge of contact centre business.
             </span>
           </p>
