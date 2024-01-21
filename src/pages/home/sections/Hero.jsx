@@ -11,7 +11,7 @@ const Hero = () => {
     <>
       <div className="flex flex-wrap items-center justify-between px-[1rem] py-[.2rem] lg:max-w-[1240px] lg:mx-[auto]">
         <div>
-          <h1 className="pt-[3rem] font-[exo] text-[#181830] text-4xl sm:text-5xl lg:text-6xl font-semibold leading-tight">
+          <h1 className="pt-[3rem] font-[exo] text-[#181830] text-3xl sm:text-5xl lg:text-6xl font-semibold leading-tight">
             <span className="lg:whitespace-nowrap">Empowering Brands </span>
             <br />
             <span className=" lg:whitespace-normal">
