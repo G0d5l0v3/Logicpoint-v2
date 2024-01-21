@@ -14,11 +14,7 @@ const OurCommitment = () => {
           </h1>
         </div>
         <div
-          className="text-white font-[Exo]"
-          data-aos="fade-zoom-in"
-          data-aos-easing="ease-in-out"
-          data-aos-delay="500"
-          data-aos-offset="0"
+          className="text-white font-[exo]"
         >
           <div className="grid pt-[2rem] md:flex gap-3">
             <div>

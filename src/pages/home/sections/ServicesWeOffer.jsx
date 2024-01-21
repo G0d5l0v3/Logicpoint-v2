@@ -1,4 +1,3 @@
-import React from "react";
 import OurServicesBox from "../../../components/items/OurServicesBox";
 import OurServicesItems from "../../../components/items/OurServicesItems";
 

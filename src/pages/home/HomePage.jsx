@@ -1,8 +1,8 @@
-import React from "react";
 import Hero from "./sections/Hero";
 import WhatWeDo from "./sections/WhatWeDo";
 import ServicesWeOffer from "./sections/ServicesWeOffer";
 import OurCommitment from "./sections/OurCommitment";
+import WhatMotivatesUs from "./sections/WhatMotivatesUs";
 
 const HomePage = () => {
   return (
@@ -11,6 +11,7 @@ const HomePage = () => {
       <WhatWeDo />
       <ServicesWeOffer />
       <OurCommitment />
+      <WhatMotivatesUs />
     </div>
   );
 };
