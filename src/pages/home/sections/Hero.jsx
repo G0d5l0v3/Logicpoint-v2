@@ -24,7 +24,7 @@ const Hero = () => {
               We deploy the best-in-class technology to meet the unique{" "}
             </span>
             <br className="hidden sm:flex" />
-            <span>needs of each of our clients. Our solutions are at the</span>
+            <span>needs of each of our clients. Our solutions are at the{" "}</span>
             <br className="hidden sm:flex" />
             <span>cutting edge of contact centre business.</span>
           </p>
