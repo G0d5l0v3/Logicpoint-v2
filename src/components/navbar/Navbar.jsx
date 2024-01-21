@@ -24,12 +24,12 @@ const Navbar = () => {
     >
       <nav
         className={
-          isOpen ? "bg-[#ece7eb] h-screen relative lg:bg-white lg:h-[auto]" : ""
+          isOpen ? "bg-[#ece7eb] h-screen relative lg:bg-white lg:h-[auto] text-[#181830]" : ""
         }
       >
         <div className="flex items-center justify-between px-[1rem] py-[.2rem] lg:max-w-[1240px] lg:mx-[auto] lg:py-[1rem]">
           <div className="lg:hidden">
-            <Logo style="flex w-20 h-10 border-r px-2" />
+            <Logo style="flex w-20 h-10 border-r pr-2" />
           </div>
           <div className="hidden lg:flex lg:justify-between lg:items-center lg:w-full">
             <div className="hidden lg:flex lg:justify-between">
