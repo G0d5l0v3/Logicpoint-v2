@@ -6,15 +6,20 @@ const Hero = () => {
 
   return (
     <div className="flex flex-wrap items-center justify-between px-[1rem] py-[.2rem] lg:max-w-[1240px] lg:mx-[auto]">
-      <h1 class="pt-[3rem] font-[exo] text-[#181830] text-4xl sm:text-5xl lg:text-6xl font-semibold leading-tight">
-        <span class="lg:whitespace-nowrap">Empowering Brands </span>
+      <div>
+      <h1 className="pt-[3rem] sm:font-[exo] text-[#181830] text-4xl sm:text-5xl lg:text-6xl font-semibold leading-tight">
+        <span className="lg:whitespace-nowrap">Empowering Brands </span>
         <br />
-        <span class=" lg:whitespace-normal">
+        <span className=" lg:whitespace-normal">
           With <span className="text-[#E87B37]">Seamless </span>
         </span>
         <br />
         <span class=" lg:whitespace-normal">IT Solutions</span>
       </h1>
+      <p>
+        
+      </p>
+      </div>
 
       <div className="hidden md:grid md:grid-cols-2 md:w-[30%] lg:w-[35%] md:py-[2rem] md:gap-3">
         <div className="grid grid-rows-2 w-full ">
