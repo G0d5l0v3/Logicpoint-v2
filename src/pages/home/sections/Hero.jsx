@@ -19,11 +19,23 @@ const Hero = () => {
             <br />
             <span className=" lg:whitespace-normal">IT Solutions</span>
           </h1>
-          <p className="pt-[3rem] font-[exo] font-semibold text-[#181830] text-4xl sm:text-5xl lg:text-6xl leading-tight"></p>
+          <p className="pt-[1rem] sm:pt-[2rem] font-[poppins] text-[#181830] text-sm sm:text-md lg:text-lg leading-tight">
+            <span className="lg:whitespace-nowrap">
+              We deploy the best-in-class technology to meet the unique{" "}
+            </span>
+            <br />
+            <span className=" lg:whitespace-normal">
+              needs of each of our clients. Our solutions are at the
+            </span>
+            <br />
+            <span className=" lg:whitespace-normal">
+              cutting edge of contact centre business.
+            </span>
+          </p>
         </div>
 
         <div className="hidden md:grid md:grid-cols-2 md:w-[30%] lg:w-[35%] md:py-[2rem] md:gap-3">
-          <div className="grid grid-rows-2 w-full" >
+          <div className="grid grid-rows-2 w-full">
             {firstTwoItems.map((item) => (
               <div key={item.key}>
                 <ImageComponent
