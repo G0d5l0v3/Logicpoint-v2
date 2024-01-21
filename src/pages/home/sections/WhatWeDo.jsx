@@ -28,7 +28,7 @@ const WhatWeDo = () => {
             <span>partner clients.</span>
           </p>
         </div>
-        <div className="w-full md:w-[45%]">
+        <div className="w-full md:w-[40%]">
           <ImageComponent
             src={image.path}
             hash={image.hash}
