@@ -10,7 +10,7 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <Suspense fallback={<h1 className="font-[exo] flex items-center justify-center h-screen">Loading...</h1>}>
+      <Suspense fallback={<h1 className="font-[Exo] flex items-center justify-center h-screen">Loading...</h1>}>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about-us" element={<AboutPage />} />
