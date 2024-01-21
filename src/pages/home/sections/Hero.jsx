@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Button from "../../../components/button/Button";
 import HeroItems from "./HeroItems";
 import ImageComponent from "../../../components/imageComponent/ImageComponent";
 
@@ -10,28 +11,29 @@ const Hero = () => {
     <>
       <div className="flex flex-wrap items-center justify-between px-[1rem] py-[.2rem] lg:max-w-[1240px] lg:mx-[auto]">
         <div>
-          <h1 className="pt-[3rem] font-[exo] text-[#181830] text-3xl sm:text-5xl lg:text-6xl font-semibold leading-tight">
-            <span className="lg:whitespace-nowrap">Empowering Brands </span>
+          <h1 className="pt-[3rem] font-[exo] text-[#181830] text-3xl sm:text-5xl lg:whitespace-normal lg:text-6xl font-semibold leading-tight">
+            <span>Empowering Brands </span>
             <br />
-            <span className=" lg:whitespace-normal">
+            <span>
               With <span className="text-[#E87B37]">Seamless </span>
             </span>
             <br />
-            <span className=" lg:whitespace-normal">IT Solutions</span>
+            <span>IT Solutions</span>
           </h1>
-          <p className="pt-[1rem] sm:pt-[2rem] font-[poppins] text-[#181830] text-sm sm:text-md lg:text-lg leading-tight">
-            <span className="lg:whitespace-nowrap">
+          <p className="pt-[1rem] sm:py-[2rem] font-[poppins] text-[#181830] text-sm sm:text-md lg:text-lg leading-tight">
+            <span className="lg:whitespace-normal">
               We deploy the best-in-class technology to meet the unique{" "}
             </span>
             <br />
-            <span className=" lg:whitespace-normal">
+            <span className=" whitespace-normal">
               needs of each of our clients. Our solutions are at the
             </span>
             <br />
-            <span className=" lg:whitespace-normal">
+            <span className=" whitespace-normal">
               cutting edge of contact centre business.
             </span>
           </p>
+          <Button description="Connect with Us"/>
         </div>
 
         <div className="hidden md:grid md:grid-cols-2 md:w-[30%] lg:w-[35%] md:py-[2rem] md:gap-3">
