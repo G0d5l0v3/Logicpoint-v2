@@ -11,7 +11,7 @@ const ServicesWeOffer = () => {
             <span className="text-[#E87B37]"> We Offer</span>{" "}
           </h1>
         </div>
-        <div className="pt-[4rem]" data-aos="fade-up" data-aos-duration="1000">
+        <div className="pt-[4rem]">
           <OurServicesBox services={OurServicesItems} />
         </div>
       </div>
