@@ -5,7 +5,7 @@ const Clients = ({ images }) => {
   const duplicatedImage = [...images, ...images];
 
   return (
-    <div className="bg-[#ece7eb]flex flex-col items-center justify-center py-[3rem] sm:h-[70svh] 2xl:h-[60svh]">
+    <div className="flex flex-col items-center justify-center py-[3rem] sm:h-[70svh] 2xl:h-[60svh]">
       <div className="flex justify-center items-center">
         <h1 className="font-[exo] font-semibold text-3xl sm:text-4xl lg:text-5xl py-[0.3rem] text-[#181830]">
           <span className="text-[#E87B37] border-b-8 border-[#5D1570] ">
