@@ -4,11 +4,11 @@ import { NavLink } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="bg-[#dedede] font-[exo] text-black py-[3rem]">
-      <div className="grid md:grid-cols-2 place-content-center gap-3 min-h-[50svh] max-w-[1440px] mx-auto  px-[2rem] sm:px-[5rem]">
+      <div className="grid lg:grid-cols-2 place-content-center gap-3 min-h-[30svh] max-w-[1240px] mx-auto  px-[2rem] sm:px-[5rem]">
         <div className="hidden lg:flex lg:items-center ">
           <Logo style="w-40 h-20" />
         </div>
-        <div className="grid md:flex gap-9 md:gap-40 md:justify-around">
+        <div className="grid md:flex gap-9 md:gap-40 md:justify-end">
           <div className="flex flex-col gap-3">
             <h1 className="font-bold text-[#5D1570] text-md sm:text-lg lg:text-xl">
               Navigation
