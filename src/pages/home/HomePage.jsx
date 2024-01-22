@@ -5,17 +5,19 @@ import OurCommitment from "./sections/OurCommitment";
 import WhatMotivatesUs from "./sections/WhatMotivatesUs";
 import Clients from "./sections/Clients";
 import ClientsItems from "../../components/items/ClientsItem";
+import Footer from "../../pages/home/sections/Footer"
 
 const HomePage = () => {
   return (
-    <div>
+    <>
       <Hero />
       <WhatWeDo />
       <ServicesWeOffer />
       <OurCommitment />
       <WhatMotivatesUs />
       <Clients images={ClientsItems} />
-    </div>
+      <Footer />
+    </>
   );
 };
 
