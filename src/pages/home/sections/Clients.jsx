@@ -16,7 +16,7 @@ const Clients = ({ images }) => {
       </div>
 
       <div className="flex items-center w-full h-[20svh] lg:h-[auto] justify-center pt-[4rem] grayscale hover:grayscale-0 hover:transition hover:ease-in-out hover:delay-150">
-        <FastMarquee speed={60} gradient>
+        <FastMarquee speed={60} >
           {duplicatedImage.map((image) => (
             <div key={image.id}>
               <img
