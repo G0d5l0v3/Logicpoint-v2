@@ -1,4 +1,4 @@
-import Logo from "../../../components/logo/Logo";
+import Logo from "../logo/Logo";
 import { NavLink } from "react-router-dom";
 
 const Footer = () => {

@@ -1,8 +1,10 @@
-import React from 'react'
+import About from "./section/About"
 
 const AboutPage = () => {
   return (
-    <div className=""></div>
+    <div className="">
+      <About />
+    </div>
   )
 }
 

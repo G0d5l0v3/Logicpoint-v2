@@ -5,7 +5,7 @@ import OurCommitment from "./sections/OurCommitment";
 import WhatMotivatesUs from "./sections/WhatMotivatesUs";
 import Clients from "./sections/Clients";
 import ClientsItems from "../../components/items/ClientsItem";
-import Footer from "../../pages/home/sections/Footer"
+
 
 const HomePage = () => {
   return (
@@ -16,7 +16,6 @@ const HomePage = () => {
       <OurCommitment />
       <WhatMotivatesUs />
       <Clients images={ClientsItems} />
-      <Footer />
     </>
   );
 };
