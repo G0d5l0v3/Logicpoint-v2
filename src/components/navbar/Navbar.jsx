@@ -24,7 +24,7 @@ const Navbar = () => {
     >
       <nav
         className={
-          isOpen ? "bg-[#ece7eb] h-screen relative lg:bg-white lg:h-[auto] text-[#181830]" : ""
+          isOpen ? "bg-[#ece7eb]/50 sticky h-screen lg:bg-white lg:h-[auto] text-[#181830] backdrop-blur-[20px] backdrop-saturation-[180%]" : ""
         }
       >
         <div className="flex items-center justify-between px-[1rem] py-[.2rem] lg:max-w-[1240px] lg:mx-[auto] lg:py-[1rem]">
