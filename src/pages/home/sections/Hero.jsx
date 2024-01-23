@@ -8,7 +8,7 @@ const lastTwoItems = HeroItems.slice(2);
 const Hero = () => {
   return (
     <>
-      <div className="flex items-center justify-between px-[1rem] py-[.2rem] lg:max-w-[1240px] lg:mx-[auto] h-[80svh]">
+      <div className="flex items-center justify-between px-[1rem] py-[.2rem] lg:max-w-[1240px] lg:mx-[auto] ">
         <div>
           <h1 className=" font-[exo] text-[#181830] text-4xl sm:text-5xl lg:whitespace-normal lg:text-6xl font-semibold leading-tight">
             <span>Empowering Brands </span>
@@ -32,9 +32,9 @@ const Hero = () => {
         </div>
 
         <div className="hidden md:grid md:grid-cols-2 md:w-[30%] lg:w-[35%] md:py-[2rem] md:gap-3">
-          <div className="grid grid-rows-2 w-full">
+          <div className="grid grid-rows-2 w-full h-[80svh]">
             {firstTwoItems.map((item) => (
-              <div key={item.key} className="hmd:h-40 lg:h-60 2xl:h-80">
+              <div key={item.key}>
                 <ImageComponent
                   src={item.path}
                   hash={item.hash}
