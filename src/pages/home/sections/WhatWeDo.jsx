@@ -9,7 +9,7 @@ const WhatWeDo = () => {
   };
   return (
     <div className="bg-[#ece7eb]">
-      <div className="grid place-content-center px-[1rem] py-[5rem] min-h-screen  sm:flex sm:items-center sm:justify-between lg:max-w-[1240px] lg:mx-[auto]">
+      <div className="grid place-content-center px-[1rem] py-[5rem] sm:flex sm:items-center sm:justify-between lg:max-w-[1240px] lg:mx-[auto]">
         <div>
           <h1 className="font-[exo] font-semibold text-3xl sm:text-4xl lg:text-5xl text-[#181830]">
             <span className="text-[#E87B37] border-b-8 border-[#5D1570] ">
