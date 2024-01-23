@@ -34,7 +34,7 @@ const Hero = () => {
         <div className="hidden md:grid md:grid-cols-2 md:w-[30%] lg:w-[35%] md:py-[2rem] md:gap-3">
           <div className="grid grid-rows-2 w-full">
             {firstTwoItems.map((item) => (
-              <div key={item.key}>
+              <div key={item.key} className="hmd:h-40 lg:h-60 2xl:h-80">
                 <ImageComponent
                   src={item.path}
                   hash={item.hash}
