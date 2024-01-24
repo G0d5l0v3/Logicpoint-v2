@@ -1,4 +1,4 @@
-import Globus from "../../assets/images/globus-logo.webp";
+import Globus from "../../assets/images/globus-logo.svg";
 import Meristem from "../../assets/images/meristem-logo.webp";
 import Parallex from "../../assets/images/parallex-logo.webp";
 import Sanef from "../../assets/images/sanef-logo2.webp";
@@ -13,7 +13,7 @@ const ClientsItems = [
     },
     {
       id: 2,
-      src: Sanef
+      src: Sanef,
     },
     {
       id: 3,
