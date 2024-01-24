@@ -12,7 +12,7 @@ const About = () => {
   return (
     <div className="bg-[#fcfafc]">
       <div className="px-[1rem] py-[5rem] lg:max-w-[1240px] lg:mx-[auto] ">
-        <h1 className="font-[exo] text-[#181830] text-4xl sm:text-5xl lg:whitespace-normal lg:text-6xl font-semibold leading-tight">
+        <h1 className="font-[exo] text-[#181830] text-3xl sm:text-4xl lg:whitespace-normal lg:text-5xl font-semibold leading-tight">
           <span>
             Committed to{" "}
             <span className="text-[#5D1570]">elevating your business </span>{" "}
@@ -30,7 +30,7 @@ const About = () => {
           <br className="hidden sm:flex" />
           <span>cutting edge of contact centre business.</span>
         </p>
-        <div className="py-[3rem]">
+        <div className="">
           <ImageComponent
             src={image.path}
             hash={image.hash}
