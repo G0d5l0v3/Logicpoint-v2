@@ -15,6 +15,11 @@ const NavItems = [
         to: "/services"
     },
     {
+        id: 4,
+        name: "SHOP PRODUCTS",
+        to: "/shop-products"
+    },
+    {
         id: 5,
         name: "LEADERSHIP",
         to: "/leadership"

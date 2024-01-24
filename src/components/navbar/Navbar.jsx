@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Hamburger from "hamburger-react";
 import Links from "./Links";
-import NavItems from "./NavItems";
+import NavItems from "../items/NavItems";
 import Button from "../button/Button";
 import Logo from "../logo/Logo";
 import { useScrollPosition } from "../../hooks/useScrollPosition";
