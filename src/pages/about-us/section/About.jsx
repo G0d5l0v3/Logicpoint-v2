@@ -11,8 +11,8 @@ const About = () => {
 
   return (
     <div className="bg-[#fcfafc]">
-      <div className="px-[1rem] py-[5rem] lg:max-w-[1240px] lg:mx-[auto] ">
-        <h1 className="font-[exo] text-[#181830] text-3xl sm:text-4xl lg:whitespace-normal lg:text-5xl font-semibold leading-tight">
+      <div className="grid place-content-center px-[1rem] py-[5rem] lg:max-w-[1240px] lg:mx-[auto] ">
+        <h1 className="text-center font-[exo] text-[#181830] text-3xl sm:text-4xl lg:whitespace-normal lg:text-5xl font-semibold leading-tight">
           <span>
             Committed to{" "}
             <span className="text-[#5D1570]">elevating your business </span>{" "}
@@ -21,7 +21,7 @@ const About = () => {
           <span> through <span className="text-[#E87B37]">step-by-step </span> collaborations</span>
         </h1>
 
-        <p className="py-[1rem]  lg:whitespace-normal sm:py-[2rem] font-[poppins] text-[#181830] text-sm sm:text-md lg:text-lg leading-tight">
+        <p className="py-[1rem] text-center lg:whitespace-normal sm:py-[2rem] font-[poppins] text-[#181830] text-sm sm:text-md lg:text-lg leading-tight">
           <span>
             We deploy the best-in-class technology to meet the unique{" "}
           </span>
@@ -30,13 +30,13 @@ const About = () => {
           <br className="hidden sm:flex" />
           <span>cutting edge of contact centre business.</span>
         </p>
-        <div className="">
+        <div className="grid place-content-center">
           <ImageComponent
             src={image.path}
             hash={image.hash}
             style={image.style}
             alt={image.alt}
-            width={1000}
+            width={500}
             height={300}
           />
         </div>
