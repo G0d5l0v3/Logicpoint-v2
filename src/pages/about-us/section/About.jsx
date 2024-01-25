@@ -3,7 +3,7 @@ import ImageComponent from "../../../components/imageComponent/ImageComponent";
 
 const About = () => {
   const image = {
-    path: "https://res.cloudinary.com/db5az7ydi/image/upload/f_auto,q_auto/v1/logicpoint-assets/sqsc3zaraxsr9lhvigly",
+    path: "https://res.cloudinary.com/db5az7ydi/image/upload/f_auto,q_auto/v1/logicpoint-assets/y12rf5bxosntkhcnwmhi",
     alt: "what-we-do-poster",
     style: "h-80 2xl:h-100 w-full object-cover rounded-lg",
     hash: "LAQbIX%f{1M|e.aeysxFqvRjbtoz",
@@ -11,7 +11,7 @@ const About = () => {
 
   return (
     <div className="bg-[#fcfafc]">
-      <div className="grid place-content-center px-[1rem] py-[5rem] lg:max-w-[1240px] lg:mx-[auto] ">
+      <div className="grid place-content-center px-[1rem] pt-[5rem] lg:max-w-[1240px] lg:mx-[auto] ">
         <h1 className="text-center font-[exo] text-[#181830] text-3xl sm:text-4xl lg:whitespace-normal lg:text-5xl font-semibold leading-tight">
           <span>
             Committed to{" "}
