@@ -12,16 +12,18 @@ const AboutWhatWeDo = () => {
             <span>We Are</span>
           </h1>
           <p className="pt-[3rem] lg:whitespace-normal font-[poppins] text-sm sm:text-md lg:text-lg leading-tight">
-            <span>There are no limitations in terms of the industries </span>
-            <br className="hidden sm:flex" />
-            <span>we can assist, as we employ and upskill our teams </span>
-            <br className="hidden sm:flex" />
-            <span>based on the customized requirements of our </span>
-            <br className="hidden sm:flex" />
-            <span>partner clients.</span>
+            There are no limitations in terms of the industries we can assist,
+            as we employ and upskill our teams based on the customized
+            requirements of our partner clients. There are no limitations in
+            terms of the industries we can assist, as we employ and upskill our
+            teams based on the customized requirements of our partner clients.
+            There are no limitations in terms of the industries we can assist,
+            as we employ and upskill our teams based on the customized
+            requirements of our partner clients. There are no limitations in
+            terms of the industries we can assist, as we employ and upskill our
+            teams based on the customized requirements of our partner clients.
           </p>
         </div>
-
       </div>
     </div>
   );
