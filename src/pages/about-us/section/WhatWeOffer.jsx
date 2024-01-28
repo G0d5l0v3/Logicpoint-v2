@@ -4,13 +4,44 @@ const WhatWeOffer = () => {
   return (
     <div className="relative h-[80svh] bg-[#ece7eb]">
       <div className="absolute h-[70svh] rounded-lg top-1/2 left-1/2 bg-white transform -translate-x-1/2 w-[80%] -translate-y-1/2 py-[5rem] shadow-lg max-w-[1240px] mx-auto px-[1rem] sm:px-[3rem]">
-          <div className="">
-            <h1 className="font-[exo] font-semibold text-3xl sm:text-4xl lg:text-5xl text-[#181830]">
-              <span className="border-b-8 border-[#5D1570]">What</span>
-              <span className="text-[#E87B37]"> We Offer</span>{" "}
-            </h1>
-            
-          </div>
+        <div className="">
+          <h1 className="font-[exo] font-semibold text-3xl sm:text-4xl lg:text-5xl text-[#181830]">
+            <span className="border-b-8 border-[#5D1570]">What</span>
+            <span className="text-[#E87B37]"> We Offer</span>{" "}
+          </h1>
+
+          <p className="py-[3rem] lg:whitespace-normal sm:py-[3rem] font-[poppins] text-[#181830] text-sm sm:text-md lg:text-lg leading-tight">
+            <span>
+              We redefine possibilities. Expertise in tech and voice solutions.{" "}
+            </span>
+            <br className="hidden sm:flex" />
+            <span>
+              Specializing in call centers and IT deployments. Innovation{" "}
+            </span>
+            <br className="hidden sm:flex" />
+            <span>
+              that transforms. Solutions that empower. Your success is{" "}
+            </span>
+            <br className="hidden sm:flex" />
+            <span>our mission.</span>
+          </p>
+
+          <p className="pb-[3rem] lg:whitespace-normal sm:pb-[3rem] font-[poppins] text-[#181830] text-sm sm:text-md lg:text-lg leading-tight">
+            <span>
+              We redefine possibilities. Expertise in tech and voice solutions.{" "}
+            </span>
+            <br className="hidden sm:flex" />
+            <span>
+              Specializing in call centers and IT deployments. Innovation{" "}
+            </span>
+            <br className="hidden sm:flex" />
+            <span>
+              that transforms. Solutions that empower. Your success is{" "}
+            </span>
+            <br className="hidden sm:flex" />
+            <span>our mission.</span>
+          </p>
+        </div>
       </div>
     </div>
   );
