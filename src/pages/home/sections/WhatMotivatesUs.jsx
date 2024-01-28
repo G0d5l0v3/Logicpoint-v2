@@ -9,15 +9,15 @@ const WhatMotivatesUs = () => {
         </h1>
         <div className="text-white font-[exo]">
           <p className="pt-[2rem] pb-[0.3rem}">
-            There are no limitations in terms of the industries we can assist,
-            as we employ and upskill our teams{" "}
-          </p>
-          <p className="pb-[0.3rem}">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-            quae voluptate e{" "}
-          </p>
-          <p className="">
-            based on the customized requirements of our partner clients.
+            At LogicPoint, our driving force is the pursuit of excellence. We
+            are fueled by the passion to innovate, solve challenges, and exceed
+            expectations. The relentless commitment to client success inspires
+            every facet of our work. Our motivation stems from the belief that
+            technology can transform businesses and elevate experiences. We
+            thrive on the joy of overcoming complex problems, delivering
+            cutting-edge solutions, and forging lasting partnerships. The
+            journey towards excellence is what motivates us, propelling us
+            forward as industry leaders and catalysts for positive change{" "}
           </p>
         </div>
       </div>

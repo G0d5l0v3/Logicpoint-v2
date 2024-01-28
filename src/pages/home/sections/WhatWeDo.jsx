@@ -18,13 +18,17 @@ const WhatWeDo = () => {
             <span>We Do</span>
           </h1>
           <p className="py-[3rem] lg:whitespace-normal sm:py-[3rem] font-[poppins] text-[#181830] text-sm sm:text-md lg:text-lg leading-tight">
-            <span>There are no limitations in terms of the industries </span>
+            <span>
+              We redefine possibilities. Expertise in tech and voice solutions.{" "}
+            </span>
             <br className="hidden sm:flex" />
-            <span>we can assist, as we employ and upskill our teams </span>
+            <span>
+              Specializing in call centers and IT deployments. Innovation{" "}
+            </span>
             <br className="hidden sm:flex" />
-            <span>based on the customized requirements of our </span>
+            <span>that transforms. Solutions that empower. Your success is </span>
             <br className="hidden sm:flex" />
-            <span>partner clients.</span>
+            <span>our mission.</span>
           </p>
         </div>
         <div className="w-full md:w-[40%]">

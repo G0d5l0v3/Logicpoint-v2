@@ -2,22 +2,22 @@ const OurServicesItems = [
     {
         id: 1,
         title: "Voice Solutions",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quae voluptate e"
+        description: "Empower Your Voice: Seamless Solutions Tailored for Peak Performance."
     },
     {
         id: 2,
         title: "CRM Solutions",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quae voluptate e"
+        description: "CRM Mastery: Elevate Relationships, Boost Efficiency with Customized Solutions."
     },
     {
         id: 3,
         title: "Technical Support",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quae voluptate e"
+        description: "Tech Support Excellence: Reliable Solutions for Seamless Operations."
     },
     {
         id: 4,
         title: "IT Consultancy",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quae voluptate e"
+        description: "Strategic IT Consultancy: Unleashing Innovation for Optimal Business Growth."
     },
 ]
 

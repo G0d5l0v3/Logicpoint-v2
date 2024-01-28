@@ -34,7 +34,7 @@ const OurCommitment = () => {
                     2{" "}
                   </span>{" "}
                   <p className="max-w-[80%] text-sm sm:text-md lg:text-lg">
-                    Proficient, highly skilled agents providing world-class
+                    Proficient, highly skilled technical personnels providing world-class
                     customer services.
                   </p>
                 </div>

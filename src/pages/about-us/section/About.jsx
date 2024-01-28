@@ -22,12 +22,12 @@ const About = () => {
 
         <p className="py-[1rem] text-center lg:whitespace-normal sm:py-[2rem] font-[poppins] text-[#181830] text-sm sm:text-md lg:text-lg leading-tight">
           <span>
-            We deploy the best-in-class technology to meet the unique{" "}
+          Empower your business journey with LogicPoint. We're dedicated to collaborative{" "}
           </span>
           <br className="hidden sm:flex" />
-          <span>needs of each of our clients. Our solutions are at the </span>
+          <span>partnerships, guiding you step-by-step towards success through innovative solutions </span>
           <br className="hidden sm:flex" />
-          <span>cutting edge of contact centre business.</span>
+          <span>and unwavering commitment to excellence.</span>
         </p>
         <div className="grid place-content-center">
           <ImageComponent
