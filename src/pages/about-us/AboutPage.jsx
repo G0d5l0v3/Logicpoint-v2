@@ -5,7 +5,9 @@ const AboutPage = () => {
   return (
     <div className="">
       <About />
-      <AboutWhatWeDo />
+      <AboutWhatWeDo/>
+    
+      
     </div>
   )
 }
