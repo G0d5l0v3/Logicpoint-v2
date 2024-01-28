@@ -1,9 +1,6 @@
-import React from "react";
-import WhatWeOffer from "./WhatWeOffer";
 
 const AboutWhatWeDo = () => {
   return (
-    <div className="relative">
       <div className="bg-[#181830] px-[1rem] py-[5rem] text-white font-[exo]">
         <div className="grid md:flex items-center text-center justify-center lg:max-w-[1240px] lg:mx-[auto]">
           <div>
@@ -29,8 +26,8 @@ const AboutWhatWeDo = () => {
           </div>
         </div>
       </div>
-      <WhatWeOffer />
-    </div>
+
+
   );
 };
 
