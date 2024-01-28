@@ -78,7 +78,7 @@ const Footer = () => {
       <div className="grid place-content-center pt-[3rem] lg:hidden">
         <Logo style="w-25 h-10" />
       </div>
-      <div className="flex items-center justify-center h-[5rem] border-t-[0.5px] border-[#5D1570] max-w-[1240px] mx-auto">
+      <div className="flex items-center justify-center h-[5rem] border-t-[0.5px] mt-[2rem] lg:mt-0 border-[#5D1570] max-w-[1240px] mx-auto">
         <p className="text-[.5rem] sm:text-[.7rem] lg:text-[.9rem]">Copyright © 2024 Logicpoint Integrated Concepts Limited</p>
       </div>
     </div>

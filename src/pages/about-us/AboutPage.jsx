@@ -8,6 +8,7 @@ const AboutPage = () => {
       <About />
       <AboutWhatWeDo/>
       <WhatWeOffer />
+ 
     </div>
   )
 }

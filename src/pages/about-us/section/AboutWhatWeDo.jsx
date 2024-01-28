@@ -1,8 +1,9 @@
 
 const AboutWhatWeDo = () => {
   return (
-      <div className="bg-[#181830] px-[1rem] py-[5rem] text-white font-[exo]">
-        <div className="grid md:flex items-center text-center justify-center lg:max-w-[1240px] lg:mx-[auto]">
+ 
+      <div className="bg-[#181830] px-[1rem] pt-[5rem] py-[7rem] text-white font-[exo]">
+        <div className="grid md:flex  justify-center lg:max-w-[1240px] lg:mx-[auto]">
           <div>
             <h1 className="font-semibold text-3xl sm:text-4xl lg:text-5xl ">
               <span className="text-[#E87B37] border-b-8 border-[#5D1570] ">
