@@ -11,8 +11,7 @@ const AboutPage = () => {
     <>
       <About />
       <AboutWhatWeDo/>
-      <WhatWeOffer />
- 
+      <WhatWeOffer /> 
     </>
   )
 }
