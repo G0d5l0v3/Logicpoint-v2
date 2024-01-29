@@ -1,6 +1,6 @@
 const AboutWhatWeDo = () => {
   return (
-    <div className="bg-[#181830] px-[1rem] pt-[5rem] pb-[7rem] text-white font-[exo]">
+    <div className="bg-[#181830] px-[1rem] pt-[5rem] pb-[10rem] text-white font-[exo]">
       <div className="grid md:flex items-center text-center justify-center lg:max-w-[1240px] lg:mx-[auto]">
         <div>
           <h1 className="font-semibold text-3xl sm:text-4xl lg:text-5xl ">
