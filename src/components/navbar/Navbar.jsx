@@ -1,11 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Hamburger from "hamburger-react";
 import Links from "./Links";
 import NavItems from "../items/NavItems";
 import Button from "../button/Button";
 import Logo from "../logo/Logo";
 import { useScrollPosition } from "../../hooks/useScrollPosition";
-
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,7 +23,9 @@ const Navbar = () => {
     >
       <nav
         className={
-          isOpen ? "bg-[#ece7eb]/50 sticky h-screen lg:bg-white lg:h-[auto] text-[#181830] backdrop-blur-[20px] backdrop-saturation-[180%]" : ""
+          isOpen
+            ? "bg-[#ece7eb]/50 sticky h-screen lg:bg-white lg:h-[auto] text-[#181830] backdrop-blur-[20px] backdrop-saturation-[180%]"
+            : ""
         }
       >
         <div className="flex items-center justify-between px-[1rem] py-[.2rem] lg:max-w-[1240px] lg:mx-[auto] lg:py-[1rem]">
@@ -55,15 +56,15 @@ const Navbar = () => {
         </div>
 
         {isOpen && (
-          <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] gap-10 flex flex-col lg:hidden ">
-            <Links
-              items={NavItems}
-              style="flex flex-col justify-center items-center gap-10 font-semibold"
-              onClick={handleNavLinkClick}
-            />
-            <Button color={"black"} description="Contact Us" />
-          </div>
-        )}
+            <div className="absolute top-0 left-0 translate-x-[-50%] translate-y-[-50%] gap-10 flex flex-col lg:hidden ">
+              <Links
+                items={NavItems}
+                style="flex flex-col justify-center items-center gap-10 font-semibold"
+                onClick={handleNavLinkClick}
+              />
+              <Button color={"black"} description="Contact Us" />
+            </div>
+          ) }
       </nav>
     </header>
   );
