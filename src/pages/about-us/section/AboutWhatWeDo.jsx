@@ -19,7 +19,7 @@ const AboutWhatWeDo = () => {
             offer solutions; we deliver strategies that redefine excellence.
             Elevate your operations, enhance customer interactions, and navigate
             the digital realm with confidence. We are innovative, reliabile, and
-            a committed to your organiztion's success in every technological
+            committed to your organiztion's success in every technological
             endeavor.
           </p>
         </div>
