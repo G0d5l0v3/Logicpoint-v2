@@ -56,15 +56,15 @@ const Navbar = () => {
         </div>
 
         {isOpen && (
-            <div className="absolute top-0 left-0 translate-x-[-50%] translate-y-[-50%] gap-10 flex flex-col lg:hidden ">
-              <Links
-                items={NavItems}
-                style="flex flex-col justify-center items-center gap-10 font-semibold"
-                onClick={handleNavLinkClick}
-              />
-              <Button color={"black"} description="Contact Us" />
-            </div>
-          ) }
+          <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] gap-10 flex flex-col lg:hidden ">
+            <Links
+              items={NavItems}
+              style="flex flex-col justify-center items-center gap-10 font-semibold"
+              onClick={handleNavLinkClick}
+            />
+            <Button color={"black"} description="Contact Us" />
+          </div>
+        )}
       </nav>
     </header>
   );
