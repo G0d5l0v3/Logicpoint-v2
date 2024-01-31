@@ -1,5 +1,10 @@
 import React from "react";
 import Button from "../../../components/button/Button";
+import Image from "../../../assets/images/technology4.png";
+import Image2 from "../../../assets/images/technology5.png";
+import Image3 from "../../../assets/images/nanotechnology.png";
+
+import ImageComponent from "../../../components/imageComponent/ImageComponent";
 
 const WhatWeOffer = () => {
   return (
@@ -12,27 +17,21 @@ const WhatWeOffer = () => {
           </h1>
           <div className="pt-[2rem]">
             <div className="flex items-center gap-3 py-[1rem]">
-              <span className="flex items-center text-white justify-center rounded-full h-10 w-10 bg-[#5D1570]">
-                1{" "}
-              </span>{" "}
+              <img src={Image2} className="w-10 h-10" />
               <p className="max-w-[80%] text-sm sm:text-md lg:text-lg">
                 Cost reductions of up to 70% for frontline and back office
                 services.
               </p>
             </div>
             <div className="flex items-center gap-3 py-[1rem]">
-              <span className="flex items-center text-white justify-center rounded-full h-10 w-10 bg-[#5D1570]">
-                2{" "}
-              </span>{" "}
+              <img src={Image} className="w-10 h-10" />
               <p className="max-w-[80%] text-sm sm:text-md lg:text-lg">
                 Multi-talented teams of customer service and support from
                 seasoned experts.
               </p>
             </div>
             <div className="flex items-center gap-3 py-[1rem]">
-              <span className="flex items-center text-white justify-center rounded-full h-10 w-10 bg-[#5D1570]">
-                3{" "}
-              </span>{" "}
+            <img src={Image3} className="w-10 h-10" />
               <p className="max-w-[80%] text-sm sm:text-md lg:text-lg">
                 Multi-process outsourced solutions that enable your business to
                 scale.
