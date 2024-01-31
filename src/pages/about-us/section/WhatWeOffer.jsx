@@ -4,8 +4,6 @@ import Image from "../../../assets/images/technology4.png";
 import Image2 from "../../../assets/images/technology5.png";
 import Image3 from "../../../assets/images/nanotechnology.png";
 
-import ImageComponent from "../../../components/imageComponent/ImageComponent";
-
 const WhatWeOffer = () => {
   return (
     <div className="relative bg-[#f2f5f8] font-[exo] py-[15rem] md:py-[16rem] lg:py-[18rem]">

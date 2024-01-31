@@ -2,6 +2,7 @@ import React, { useEffect } from "react"
 import About from "./section/About"
 import AboutWhatWeDo from "./section/AboutWhatWeDo"
 import WhatWeOffer from "./section/WhatWeOffer"
+import OurCoreValues from "./section/OurCoreValues"
 
 const AboutPage = () => {
   useEffect(() => {
@@ -12,6 +13,7 @@ const AboutPage = () => {
       <About />
       <AboutWhatWeDo/>
       <WhatWeOffer /> 
+      <OurCoreValues />
     </>
   )
 }
