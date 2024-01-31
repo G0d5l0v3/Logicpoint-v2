@@ -17,21 +17,21 @@ const WhatWeOffer = () => {
           </h1>
           <div className="pt-[2rem]">
             <div className="flex items-center gap-3 py-[1rem]">
-              <img src={Image2} className="w-10 h-10" />
+              <img src={Image3} className="w-10 h-10" />
               <p className="max-w-[80%] text-sm sm:text-md lg:text-lg">
                 Cost reductions of up to 70% for frontline and back office
                 services.
               </p>
             </div>
             <div className="flex items-center gap-3 py-[1rem]">
-              <img src={Image} className="w-10 h-10" />
+              <img src={Image2} className="w-10 h-10" />
               <p className="max-w-[80%] text-sm sm:text-md lg:text-lg">
                 Multi-talented teams of customer service and support from
                 seasoned experts.
               </p>
             </div>
             <div className="flex items-center gap-3 py-[1rem]">
-            <img src={Image3} className="w-10 h-10" />
+            <img src={Image} className="w-10 h-10" />
               <p className="max-w-[80%] text-sm sm:text-md lg:text-lg">
                 Multi-process outsourced solutions that enable your business to
                 scale.
