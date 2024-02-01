@@ -1,4 +1,3 @@
-import React from "react";
 
 const OurCoreValues = ({ values }) => {
   return (
@@ -7,7 +6,7 @@ const OurCoreValues = ({ values }) => {
         <span className="text-[#E87B37] border-b-8 border-[#5D1570] ">Our</span>{" "}
         <span>Core Values</span>
       </h1>
-      <div className="grid lg:grid-cols-2 gap-8 font-[exo] py-[5rem]">
+      <div className="grid lg:grid-cols-2 gap-8 font-[exo] pt-[4rem]">
         {values.map((value) => (
           <div
             className="grid bg-[#0a0a1a] text-white shadow-lg rounded-lg h-[20rem] 2xl:h-[25rem] px-[1rem] sm:px-[2rem] pt-[2rem]"
