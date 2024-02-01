@@ -31,7 +31,7 @@ const About = () => {
           </span>
           <br className="hidden sm:flex" />
           <span>
-            partnerships, guiding you step-by-step towards success through
+            partnerships, guiding you each step towards success through
             innovative
           </span>
           <br className="hidden sm:flex" />
