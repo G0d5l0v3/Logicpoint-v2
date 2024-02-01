@@ -15,7 +15,7 @@ const OurCoreValuesItems = [
     id: 2,
     title: "High Standards",
     description:
-      "CRM Mastery: Elevate Relationships, Boost Efficiency with Customized Solutions.",
+      "Our ethos is built on a superb work ethic. We bring our best self to work every day.",
     path: medal
   },
   {
