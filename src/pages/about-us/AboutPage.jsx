@@ -4,6 +4,7 @@ import AboutWhatWeDo from "./section/AboutWhatWeDo"
 import WhatWeOffer from "./section/WhatWeOffer"
 import WhatWeOfferItems from "../../components/items/WhatWeOfferItems"
 import OurCoreValues from "./section/OurCoreValues"
+import OurCoreValuesItems from "../../components/items/OurCoreValuesItems"
 
 const AboutPage = () => {
   useEffect(() => {
@@ -14,7 +15,7 @@ const AboutPage = () => {
       <About />
       <AboutWhatWeDo/>
       <WhatWeOffer items={WhatWeOfferItems}/> 
-      <OurCoreValues />
+      <OurCoreValues values={OurCoreValuesItems}/>
     </>
   )
 }
