@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../../../components/button/Button";
-import Image from "../../../assets/images/technology4.png";
-import Image2 from "../../../assets/images/technology5.png";
+import Image from "../../../assets/images/engineering.png";
+import Image2 from "../../../assets/images/customer-service.png";
 import Image3 from "../../../assets/images/nanotechnology.png";
 
 const WhatWeOffer = () => {
