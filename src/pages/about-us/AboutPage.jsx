@@ -1,10 +1,11 @@
 import React, { useEffect } from "react"
-import About from "./section/About"
-import AboutWhatWeDo from "./section/AboutWhatWeDo"
-import WhatWeOffer from "./section/WhatWeOffer"
+import About from "./sections/About"
+import AboutWhatWeDo from "./sections/AboutWhatWeDo"
+import WhatWeOffer from "./sections/WhatWeOffer"
 import WhatWeOfferItems from "../../components/items/WhatWeOfferItems"
-import OurCoreValues from "./section/OurCoreValues"
+import OurCoreValues from "./sections/OurCoreValues"
 import OurCoreValuesItems from "../../components/items/OurCoreValuesItems"
+import ReadyToPartner from "../../components/footer/ReadyToPartner"
 
 const AboutPage = () => {
   useEffect(() => {
@@ -16,6 +17,7 @@ const AboutPage = () => {
       <AboutWhatWeDo/>
       <WhatWeOffer items={WhatWeOfferItems}/> 
       <OurCoreValues values={OurCoreValuesItems}/>
+      <ReadyToPartner />
     </>
   )
 }
