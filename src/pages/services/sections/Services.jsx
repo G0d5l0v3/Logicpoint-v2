@@ -13,7 +13,7 @@ const Services = () => {
             What We Can Provide
             <span className="text-[#E87B37]"> For You</span>
           </h1>
-          <p className="pb-[1rem] text-sm font-[poppins] sm:text-md lg:text-lg text-[#181830]">
+          <p className="pb-[2rem] text-sm font-[poppins] sm:text-md lg:text-lg text-[#181830]">
             At Logicpoint, we have deep vertical expertise and a unique
             understanding of industry-specific needs.
           </p>
