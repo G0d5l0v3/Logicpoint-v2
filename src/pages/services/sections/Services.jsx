@@ -17,7 +17,7 @@ const Services = () => {
             At Logicpoint, we have deep vertical expertise and a unique
             understanding of industry-specific needs.
           </p>
-          <Button description="Connnect with Us" />
+          <Button description="Connect with Us" />
         </div>
         <Accordion items={AccordionItems} />
       </div>
