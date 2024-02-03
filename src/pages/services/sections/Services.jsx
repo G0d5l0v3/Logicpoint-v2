@@ -1,0 +1,28 @@
+import React, { useState } from "react";
+import Button from "../../../components/button/Button";
+import Accordion from "../../../components/accordion/Accordion";
+import AccordionItems from "../../../components/items/AccordionItems";
+
+const Services = () => {
+  const [id, setId] = useState(false);
+  return (
+    <div className="bg-[#fcfafc]">
+      <div className="grid lg:flex lg:justify-between font-[exo] lg:max-w-[1240px] py-[5rem] px-[2rem] rounded-lg lg:mx-auto ">
+        <div className="lg:w-[45%]">
+          <h1 className="font-semibold text-3xl pb-[1rem] sm:text-4xl lg:text-5xl text-[#181830]">
+            What We Can Provide
+            <span className="text-[#E87B37]"> For You</span>
+          </h1>
+          <p className="pb-[1rem] text-sm font-[poppins] sm:text-md lg:text-lg text-[#181830]">
+            At Logicpoint, we have deep vertical expertise and a unique
+            understanding of industry-specific needs.
+          </p>
+          <Button description="Connnect with Us" />
+        </div>
+        <Accordion items={AccordionItems} />
+      </div>
+    </div>
+  );
+};
+
+export default Services;

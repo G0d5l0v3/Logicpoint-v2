@@ -6,6 +6,7 @@ import Footer from "./components/footer/Footer";
 const App = () => {
   const HomePage = lazy(() => import("./pages/home/HomePage"));
   const AboutPage = lazy(() => import("./pages/about-us/AboutPage"));
+  const ServicePage = lazy(() => import("./pages/services/ServicePage"));
   return (
     <>
       <Navbar />
@@ -19,6 +20,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about-us" element={<AboutPage />} />
+          <Route path="/services" element={<ServicePage />} />
         </Routes>
         <Footer />
       </Suspense>
