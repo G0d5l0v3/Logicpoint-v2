@@ -1,20 +1,29 @@
 import React, { useState } from "react";
 
 const Accordion = ({ items }) => {
+  const [activeItemId, setActiveItemId] = useState(null);
+  function handleToggle(id) {
+    setActiveItemId(id !== activeItemId ? id : null);
+  }
   return (
     <div className="grid lg:w-[50%] gap-8 ">
-      {items.map((item, index) => (
+      {items.map((item) => (
         <div
-          className="flex font-[poppins] bg-white py-[1.3rem] px-[3rem] font-semibold rounded-lg shadow-lg"
-          key={index}
+          className="flex flex-col py-[1.5rem] px-[3rem] rounded-lg shadow-lg bg-white hover:cursor-pointer hover:shadow-[#cdb8d4] hover:shadow-md"
+          key={item.id}
+          onClick={() => handleToggle(item.id)}
         >
-          <div className="flex items-center  justify-between w-full">
-            <h1>{item.title}</h1>
-            <span className="flex items-center justify-center hover:cursor-pointer rounded-full font-bold text-white h-10 w-10 bg-[#5D1570]">
-              +
+          <div className="flex justify-between items-center w-full">
+            <h1 className="font-semibold font-[poppins]">{item.title}</h1>
+            <span className="flex items-center font-bold text-white justify-center rounded-full h-10 w-10 bg-[#5D1570]">
+              {item.id === activeItemId ? "-" : "+"}
             </span>
           </div>
-          <p>{item.text}</p>
+          {item.id === activeItemId && (
+            <div className="py-[1.3rem]">
+              <p>{item.text}</p>
+            </div>
+          )}
         </div>
       ))}
     </div>

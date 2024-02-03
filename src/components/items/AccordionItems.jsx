@@ -1,28 +1,34 @@
 const AccordionItems = [
-    {
-        title:"Customer Experience",
-        text:""
-    },
-    {
-        title:"Voice Solutions",
-        text:""
-    },
-    {
-        title:"CRM Solutions",
-        text:""
-    },
-    {
-        title:"Technical Support",
-        text:""
-    },
-    {
-        title:"Software Development",
-        text:""
-    },
-    {
-        title:"IT Outsourcing",
-        text:""
-    },
-]
+  {
+    id: 1,
+    title: "Customer Experience",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget ornare sem, eget placerat ipsum. Nunc blandit at leo et suscipit. Maecenas leo dolor, finibus sit amet iaculis id, ultricies in mauris. Duis facilisis ipsum nec erat maximus, quis molestie purus tincidunt. Aliquam eget quam sagittis, efficitur erat in, efficitur quam. Nunc eget tempus quam.",
+  },
+  {
+    id: 2,
+    title: "Voice Solutions",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget ornare sem, eget placerat ipsum. Nunc blandit at leo et suscipit. Maecenas leo dolor, finibus sit amet iaculis id, ultricies in mauris. Duis facilisis ipsum nec erat maximus, quis molestie purus tincidunt. Aliquam eget quam sagittis, efficitur erat in, efficitur quam. Nunc eget tempus quam.",
+  },
+  {
+    id: 3,
+    title: "CRM Solutions",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget ornare sem, eget placerat ipsum. Nunc blandit at leo et suscipit. Maecenas leo dolor, finibus sit amet iaculis id, ultricies in mauris. Duis facilisis ipsum nec erat maximus, quis molestie purus tincidunt. Aliquam eget quam sagittis, efficitur erat in, efficitur quam. Nunc eget tempus quam.",
+  },
+  {
+    id: 4,
+    title: "Technical Support",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget ornare sem, eget placerat ipsum. Nunc blandit at leo et suscipit. Maecenas leo dolor, finibus sit amet iaculis id, ultricies in mauris. Duis facilisis ipsum nec erat maximus, quis molestie purus tincidunt. Aliquam eget quam sagittis, efficitur erat in, efficitur quam. Nunc eget tempus quam.",
+  },
+  {
+    id: 5,
+    title: "Software Development",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget ornare sem, eget placerat ipsum. Nunc blandit at leo et suscipit. Maecenas leo dolor, finibus sit amet iaculis id, ultricies in mauris. Duis facilisis ipsum nec erat maximus, quis molestie purus tincidunt. Aliquam eget quam sagittis, efficitur erat in, efficitur quam. Nunc eget tempus quam.",
+  },
+  {
+    id: 6,
+    title: "IT Outsourcing",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget ornare sem, eget placerat ipsum. Nunc blandit at leo et suscipit. Maecenas leo dolor, finibus sit amet iaculis id, ultricies in mauris. Duis facilisis ipsum nec erat maximus, quis molestie purus tincidunt. Aliquam eget quam sagittis, efficitur erat in, efficitur quam. Nunc eget tempus quam.",
+  },
+];
 
-export default AccordionItems
+export default AccordionItems;
