@@ -14,7 +14,7 @@ const Accordion = ({ items }) => {
           onClick={() => handleToggle(item.id)}
         >
           <div className="flex justify-between items-center w-full">
-            <h1 className="font-semibold font-[poppins]">{item.title}</h1>
+            <h1 className="font-semibold font-[exo]">{item.title}</h1>
             <span className="flex items-center font-bold text-white text-xl justify-center rounded-full h-10 w-10 bg-[#5D1570]">
               {item.id === activeItemId ? "-" : "+"}
             </span>

@@ -1,4 +1,4 @@
-import React, { useEffect, lazy, Suspense } from "react";
+import React, { lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
@@ -7,6 +7,7 @@ const App = () => {
   const HomePage = lazy(() => import("./pages/home/HomePage"));
   const AboutPage = lazy(() => import("./pages/about-us/AboutPage"));
   const ServicePage = lazy(() => import("./pages/services/ServicePage"));
+  const ShopPage = lazy(() =>  import("./pages/shop-products/ShopPage"));
   return (
     <>
       <Navbar />
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/" element={<HomePage />} />
           <Route path="/about-us" element={<AboutPage />} />
           <Route path="/services" element={<ServicePage />} />
+          <Route path="/shop-products" element={<ShopPage />} />
         </Routes>
         <Footer />
       </Suspense>
