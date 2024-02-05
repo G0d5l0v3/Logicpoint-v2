@@ -9,7 +9,7 @@ const Accordion = ({ items }) => {
     <div className="grid lg:w-[50%] gap-8 ">
       {items.map((item) => (
         <div
-          className="flex flex-col py-[1.5rem] px-[1.5rem] lg:px-[3rem] rounded-lg shadow-lg bg-white hover:cursor-pointer hover:shadow-[#cdb8d4] hover:shadow-md"
+          className={`flex flex-col py-[1.5rem] px-[1.5rem] lg:px-[3rem] rounded-lg shadow-lg bg-white hover:cursor-pointer hover:shadow-[#cdb8d4] ${ item.id === activeItemId ? "shadow-[#cdb8d4]": ""} hover:shadow-md`}
           key={item.id}
           onClick={() => handleToggle(item.id)}
         >
