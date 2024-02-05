@@ -10,7 +10,7 @@ const Accordion = ({ items }) => {
       {items.map((item) => (
         <div
           className={`flex flex-col py-[1.5rem] px-[1.5rem] lg:px-[3rem] rounded-lg shadow-lg bg-white hover:cursor-pointer hover:shadow-[#cdb8d4] ${
-            item.id === activeItemId ? "hover:shadow-lg border-2 border-t-[#cdb8d4]" : ""
+            item.id === activeItemId ? "hover:shadow-lg border-t-2 border-t-[#cdb8d4]" : ""
           } hover:shadow-md`}
           key={item.id}
           onClick={() => handleToggle(item.id)}
