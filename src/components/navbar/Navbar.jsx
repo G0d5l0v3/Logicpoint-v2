@@ -44,7 +44,7 @@ const Navbar = () => {
             </div>
             <div className="flex">
               <div className="hover:cursor-pointer">
-                <img src={Cart} className="h-8 px-[3rem]" />
+                <img src={Cart} className="h-7 px-[3rem]" />
               </div>
               <Button color={"black"} description="Contact Us" />
             </div>

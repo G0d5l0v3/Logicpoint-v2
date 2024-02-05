@@ -19,11 +19,6 @@ const NavItems = [
         name: "SHOP PRODUCTS",
         to: "/shop-products"
     },
-    {
-        id: 5,
-        name: "LEADERSHIP",
-        to: "/leadership"
-    }
 ]
 
 export default NavItems;
