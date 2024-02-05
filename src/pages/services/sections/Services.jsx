@@ -6,7 +6,7 @@ import AccordionItems from "../../../components/items/AccordionItems";
 const Services = () => {
 
   return (
-    <div className="bg-[#fcfafc]">
+    <div className="bg-gradient-to-r from-[#fcfafc] to-[#eaeaea]">
       <div className="grid lg:flex lg:justify-between font-[exo] lg:max-w-[1240px] py-[5rem] px-[2rem] rounded-lg lg:mx-auto ">
         <div className="lg:w-[45%] py-[3rem]">
           <h1 className="font-semibold text-3xl pb-[1rem] sm:text-4xl lg:text-5xl text-[#181830]">

@@ -8,7 +8,7 @@ const WhatWeDo = () => {
     hash: "LLJkTA.8tn?v?^%1of-;9EIUMwoz",
   };
   return (
-    <div className="bg-[#ece7eb]">
+    <div className="bg-gradient-to-r from-[#fcfafc] to-[#eaeaea]">
       <div className="grid place-content-center px-[1rem] py-[5rem] sm:flex sm:items-center sm:justify-between lg:max-w-[1240px] lg:mx-[auto]">
         <div>
           <h1 className="font-[exo] font-semibold text-3xl sm:text-4xl lg:text-5xl text-[#181830]">
