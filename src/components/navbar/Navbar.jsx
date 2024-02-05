@@ -4,6 +4,7 @@ import Links from "./Links";
 import NavItems from "../items/NavItems";
 import Button from "../button/Button";
 import Logo from "../logo/Logo";
+import Cart from "../../assets/images/add-cart.png";
 import { useScrollPosition } from "../../hooks/useScrollPosition";
 
 const Navbar = () => {
@@ -41,7 +42,12 @@ const Navbar = () => {
                 onClick={handleNavLinkClick}
               />
             </div>
-            <Button color={"black"} description="Contact Us" />
+            <div className="flex">
+              <div className="hover:cursor-pointer">
+                <img src={Cart} className="h-8 px-[3rem]" />
+              </div>
+              <Button color={"black"} description="Contact Us" />
+            </div>
           </div>
 
           <div className="lg:hidden">
