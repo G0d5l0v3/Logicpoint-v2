@@ -50,7 +50,10 @@ const Navbar = () => {
             </div>
           </div>
 
-          <div className="lg:hidden">
+          <div className="flex items-center lg:hidden">
+            <div className={`hover:cursor-pointer ${isOpen ? "hidden" : ""}`}>
+              <img src={Cart} className="h-7 px-[3rem]" />
+            </div>
             <Hamburger
               rounded
               toggled={isOpen}
