@@ -1,7 +1,14 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import Button from "../button/Button";
 
 const ReadyToPartner = () => {
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    return navigate("/contact-us");
+  };
+
   return (
     <div className="py-[5rem]">
       <div className="grid lg:flex font-[exo] lg:max-w-[1240px] py-[5rem] px-[2rem] rounded-lg lg:mx-auto bg-[#f2f5f8]">
@@ -13,7 +20,7 @@ const ReadyToPartner = () => {
             Grow your business while reducing operational cost and time and
             keeping the core business focus in-house.
           </p>
-          <Button description="Get In Touch" />
+          <Button description="Get In Touch" onClick={handleNavigate} />
         </div>
       </div>
     </div>

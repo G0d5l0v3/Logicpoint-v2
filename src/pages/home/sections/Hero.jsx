@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import Button from "../../../components/button/Button";
 import HeroItems from "../../../components/items/HeroItems";
 import ImageComponent from "../../../components/imageComponent/ImageComponent";
@@ -6,6 +7,10 @@ const firstTwoItems = HeroItems.slice(0, 2);
 const lastTwoItems = HeroItems.slice(2);
 
 const Hero = () => {
+  const navigate = useNavigate();
+  const handleClick = () => {
+    return navigate('/services')
+  }
   return (
     <>
       <div className="flex items-center justify-between px-[1rem] py-[5rem] lg:max-w-[1240px] lg:mx-[auto]">
@@ -28,7 +33,7 @@ const Hero = () => {
             <br className="hidden sm:flex" />
             <span>cutting edge of contact centre business.</span>
           </p>
-          <Button description="Connect with Us" />
+          <Button description="Connect with Us" onClick = {handleClick}/>
         </div>
 
         <div className="hidden md:grid md:grid-cols-2 md:w-[30%] lg:w-[35%] md:gap-3">
