@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import GetInTouch from "./sections/GetInTouch";
 
 const ContactUs = () => {
   return (
-    <div>
-        
-    </div>
-  )
-}
+    <>
+      <GetInTouch />
+    </>
+  );
+};
 
-export default ContactUs
+export default ContactUs;
