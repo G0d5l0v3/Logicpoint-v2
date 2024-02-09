@@ -18,8 +18,9 @@ const Navbar = () => {
   };
 
   const handleNavigate = () => {
-    return navigate('/contact-us')
-  }
+    setIsOpen(false);
+    navigate("/contact-us");
+  };
 
   return (
     <header
@@ -53,7 +54,11 @@ const Navbar = () => {
               <div className="hover:cursor-pointer">
                 <img src={Cart} className="h-7 px-[3rem]" />
               </div>
-              <Button color={"black"} description="Contact Us" onClick= {handleNavigate} />
+              <Button
+                color={"black"}
+                description="Contact Us"
+                onClick={handleNavigate}
+              />
             </div>
           </div>
 
@@ -78,7 +83,11 @@ const Navbar = () => {
               style="flex flex-col justify-center items-center gap-10 font-semibold"
               onClick={handleNavLinkClick}
             />
-            <Button color={"black"} description="Contact Us" onClick= {handleNavigate} />
+            <Button
+              color={"black"}
+              description="Contact Us"
+              onClick={handleNavigate}
+            />
           </div>
         )}
       </nav>
