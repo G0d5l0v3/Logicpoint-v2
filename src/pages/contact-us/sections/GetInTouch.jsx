@@ -10,7 +10,7 @@ const GetInTouch = () => {
         We would love to hear from you.
       </p>
 
-      <div className="grid lg:grid-cols-3 font-[exo]">
+      <div className="grid gap-12 lg:gap-0 lg:grid-cols-3 font-[exo] pt-[3rem]">
         <div className=" lg:border-r px-[3rem]">
           <h1 className="font-bold text-[#5D1570]">General Information</h1>
           <p className="pt-[1.5rem]">For general information or information about the Logicpoint story, contact:</p>
