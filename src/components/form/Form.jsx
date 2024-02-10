@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Form = () => {
+const Form = () => { 
   return (
-    <div>
-        <form>
-
-        </form>
+    <div className="lg:max-w-[1240px] lg:mx-[auto] bg-[#181830]">
+      <form>
+        test
+      </form>
     </div>
   )
 }

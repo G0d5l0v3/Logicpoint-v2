@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import GetInTouch from "./sections/GetInTouch";
 import GetInTouchItems from "../../components/items/GetInTouchItems";
+import Form from "../../components/form/Form"
 
 const ContactUs = () => {
   useEffect(() => {
@@ -10,6 +11,7 @@ const ContactUs = () => {
   return (
     <>
       <GetInTouch items={GetInTouchItems} />
+      <Form />
     </>
   );
 };
