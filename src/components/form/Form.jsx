@@ -43,12 +43,11 @@ const Form = () => {
           </div>
 
           <div className="flex flex-col gap-4 pt-[2rem]">
-            <label name="email">Enter Message</label>
-            <input
-              type="email"
-              name="email"
+            <label name="msg">Enter Message</label>
+            <textarea
+              name="msg"
               placeholder="Write your message"
-              className="rounded px-[2rem] py-[1rem] text-black"
+              className="rounded px-[2rem] py-[1rem] text-black h-[15rem]"
             />
           </div>
           <div className="pt-[3rem] lg:hidden">
