@@ -3,7 +3,7 @@ import Button from "../../components/button/Button"
 
 const Form = () => {
   return (
-    <div className="lg:max-w-[1240px] lg:mx-[auto] rounded-lg bg-[#181830] text-white px-[2rem] lg:px-[5rem] py-[3rem] mb-[5rem] font-[exo]">
+    <div className="lg:max-w-[1240px] lg:mx-[auto] rounded-lg shadow-xl bg-[#181830] text-white px-[2rem] lg:px-[5rem] py-[3rem] mb-[5rem] font-[exo]">
       <form>
         <h1 className="text-sm md:text-lg lg:text-xl font-semibold">
           Or fill out the form below and send
@@ -37,7 +37,7 @@ const Form = () => {
                 className="rounded px-[2rem] py-[1rem] text-black"
               />
             </div>
-            <div className="pt-[3rem]">
+            <div className="hidden lg:flex lg:pt-[3rem]">
             <Button description="Send Message"/>
             </div>
           </div>
@@ -51,6 +51,9 @@ const Form = () => {
               className="rounded px-[2rem] py-[1rem] text-black"
             />
           </div>
+          <div className="pt-[3rem] lg:hidden">
+            <Button description="Send Message"/>
+            </div>
         </div>
       </form>
     </div>
