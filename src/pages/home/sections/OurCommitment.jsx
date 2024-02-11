@@ -1,6 +1,11 @@
 import Button from "../../../components/button/Button";
+import { useNavigate } from "react-router-dom"
 
 const OurCommitment = () => {
+  const navigate = useNavigate()
+  const handleNavigate = () => {
+    return navigate('/contact-us')
+  }
   return (
     <div className="bg-[#181830]">
       <div className="font-[exo] min-h-[70svh] flex flex-col md:flex justify-center pt-[2rem] max-w-[1240px] mx-auto px-[1rem] sm:px-[1rem]">
@@ -84,7 +89,7 @@ const OurCommitment = () => {
             </div>
           </div>
           <div className="my-[3rem] hover:opacity-[0.7]">
-            <Button description="Talk to Us" />
+            <Button description="Talk to Us" onClick={handleNavigate}/>
           </div>
         </div>
       </div>

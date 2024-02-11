@@ -9,7 +9,7 @@ const lastTwoItems = HeroItems.slice(2);
 const Hero = () => {
   const navigate = useNavigate();
   const handleClick = () => {
-    return navigate('/services')
+    return navigate('/contact-us')
   }
   return (
     <>
