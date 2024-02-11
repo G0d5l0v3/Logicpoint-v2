@@ -1,10 +1,14 @@
 import React from "react";
+import { useNavigate } from "react-router-dom"
 import Button from "../../../components/button/Button";
 import Accordion from "../../../components/accordion/Accordion";
 import AccordionItems from "../../../components/items/AccordionItems";
 
 const Services = () => {
-
+  const navigate = useNavigate();
+  const handleNavigate =  () => {
+    return  navigate("/contact-us");
+  }
   return (
     <div className="bg-gradient-to-r from-[#fcfafc] to-[#eaeaea]">
       <div className="grid lg:flex lg:justify-between font-[exo] lg:max-w-[1240px] py-[5rem] px-[2rem] rounded-lg lg:mx-auto ">
@@ -17,7 +21,7 @@ const Services = () => {
             At Logicpoint, we have deep vertical expertise and a unique
             understanding of industry-specific needs.
           </p>
-          <Button description="Connect with Us" />
+          <Button description="Connect with Us" onClick={handleNavigate} />
         </div>
         <Accordion items={AccordionItems} />
       </div>
