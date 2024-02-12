@@ -1,4 +1,4 @@
-const Button = ({ description, color, onClick }) => {
+const Button = ({ description, color, onClick, type }) => {
   return (
     <button
       className={
@@ -9,6 +9,7 @@ const Button = ({ description, color, onClick }) => {
           : "hover:border-[#5D1570] bg-[#5D1570] border-none text-white hover:opacity-[0.7] border-2 text-[0.8rem] font-[exo] font-semibold max-w-[15rem] px-4 py-2 "
       }
       onClick={onClick}
+      type={type}
     >
       {description}
     </button>
