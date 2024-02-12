@@ -27,7 +27,7 @@ const Navbar = () => {
       className={
         scrollPosition !== 0
           ? "sticky top-0 z-10 sm:font-[exo] shadow bg-white/25 backdrop-blur-[20px] backdrop-saturation-[180%]"
-          : "sticky top-0 z-10 sm:font-[exo]"
+          : "sticky top-0 z-10 sm:font-[exo] bg-white/25"
       }
     >
       <nav
