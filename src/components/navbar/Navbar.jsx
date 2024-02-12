@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import Hamburger from "hamburger-react";
 import Links from "./Links";
 import NavItems from "../items/NavItems";
@@ -51,20 +51,24 @@ const Navbar = () => {
               />
             </div>
             <div className="flex">
-              <div className="hover:cursor-pointer">
-                <img src={Cart} className="h-7 px-[3rem]" />
-              </div>
               <Button
                 color={"black"}
                 description="Contact Us"
                 onClick={handleNavigate}
               />
+              <div className="hover:cursor-pointer">
+                <Link to="/cart">
+                  <img src={Cart} className="h-7 px-[3rem]" />
+                </Link>
+              </div>
             </div>
           </div>
 
           <div className="flex items-center lg:hidden">
             <div className={`hover:cursor-pointer ${isOpen ? "hidden" : ""}`}>
-              <img src={Cart} className="h-7 px-[3rem]" />
+              <Link to="/cart">
+                <img src={Cart} className="h-7 px-[3rem]" />
+              </Link>
             </div>
             <Hamburger
               rounded
