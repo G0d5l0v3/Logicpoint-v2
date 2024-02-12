@@ -58,7 +58,7 @@ const Navbar = () => {
               />
               <div className="hover:cursor-pointer">
                 <Link to="/cart">
-                  <img src={Cart} className="h-7 px-[3rem]" />
+                  <img src={Cart} className="h-7 pl-[3rem]" />
                 </Link>
               </div>
             </div>
