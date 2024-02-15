@@ -24,6 +24,7 @@ const AboutPage = () => {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
     // Simulate loading delay and then set isLoading to false
+    window.scrollTo(0, 0);
     setTimeout(() => {
       setIsLoading(false);
     }, 500);

@@ -30,7 +30,7 @@ const ImageComponent = ({ src, hash, alt, style, width, height }) => {
         alt={alt}
         className={style}
         loading="lazy"
-        style={{ display: imageLoaded ? "block" : "none" }}
+        style={{ display: imageLoaded ? "flex" : "none" }}
       />
     </>
   );

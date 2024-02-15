@@ -1,10 +1,22 @@
 import Button from "../../../components/button/Button";
-import { useNavigate } from "react-router-dom"
+import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 const WhatWeOffer = ({items}) => {
   const navigate = useNavigate();
   const handleNavigate = () => {
     return navigate('/contact-us')
+  }
+  const container = {
+    hidden: { opacity: 1, scale: 0 },
+    visible: {
+      opacity: 1,
+      scale: 1,
+      transition: {
+        delayChildren: 0.3,
+        staggerChildren: 0.2
+      }
+    }
   }
 
   return (

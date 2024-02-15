@@ -4,6 +4,7 @@ import { ConfigProvider } from "antd";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 
+
 const App = () => {
   const HomePage = lazy(() => import("./pages/home/HomePage"));
   const AboutPage = lazy(() => import("./pages/about-us/AboutPage"));
@@ -28,6 +29,7 @@ const App = () => {
           },
         }}
       >
+
         <Navbar />
         <Suspense>
           <Routes>
