@@ -1,5 +1,5 @@
 {
-    "navigationFallback": [
+    "routes": [
       {
         "rewrite": "/index.html",
         "exclude": ["*.{css,scss,js,png,svg,gif,ico,jpg,jpeg}"]
