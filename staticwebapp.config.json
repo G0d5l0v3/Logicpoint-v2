@@ -1,15 +1,12 @@
 {
   "routes": [
+
       {
-          "route": "/index.html",
-          "redirect": "/about-us"
-      },
-      {
-          "route": "/",
+          "route": "/about-us",
           "redirect": "/about-us"
       }
   ],
   "navigationFallback": {
-      "rewrite": "/about-us/index.html"
+      "rewrite": "/index.html"
   }
 }
