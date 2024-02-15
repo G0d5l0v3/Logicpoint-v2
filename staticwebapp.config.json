@@ -11,31 +11,6 @@
       "route": "/*",
       "rewrite": "/index.html",
       "statusCode": 200
-    },
-    {
-      "route": "/about-us",
-      "rewrite": "/about-us",
-      "statusCode": 200
-    },
-    {
-      "route": "/contact-us",
-      "rewrite": "/contact-us",
-      "statusCode": 200
-    },
-    {
-      "route": "/shop-product",
-      "rewrite": "/shop-products",
-      "statusCode": 200
-    },
-    {
-      "route": "/services",
-      "rewrite": "/services",
-      "statusCode": 200
-    },
-    {
-      "route": "/cart",
-      "rewrite": "/cart",
-      "statusCode": 200
     }
   ]
 }
