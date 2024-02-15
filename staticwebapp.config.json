@@ -1,8 +1,15 @@
 {
-    "routes": [
-      {
-        "rewrite": "/index.html",
-        "exclude": ["*.{css,scss,js,png,svg,gif,ico,jpg,jpeg}"]
-      }     
-    ]
+  "navigationFallback": [
+    {
+      "rewrite": "/index.html",
+      "exclude": ["*.{css,scss,js,png,svg,gif,ico,jpg,jpeg}"]
+    }
+  ],
+  "routes": [
+    {
+      "route": "/*",
+      "rewrite": "/index.html",
+      "statusCode": 200
+    }
+  ]
 }
