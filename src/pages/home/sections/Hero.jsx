@@ -9,11 +9,15 @@ const lastTwoItems = HeroItems.slice(2);
 const Hero = () => {
   const navigate = useNavigate();
   const handleClick = () => {
-    return navigate('/contact-us')
-  }
+    return navigate("/contact-us");
+  };
+
+
   return (
     <>
-      <div className="flex items-center justify-between px-[1rem] py-[5rem] lg:max-w-[1240px] lg:mx-[auto]">
+      <div
+        className="flex items-center justify-between px-[1rem] py-[5rem] lg:max-w-[1240px] lg:mx-[auto]"
+      >
         <div>
           <h1 className=" font-[exo] text-[#181830] text-4xl sm:text-5xl lg:whitespace-normal lg:text-6xl font-semibold leading-tight">
             <span>Empowering Brands </span>
@@ -33,7 +37,7 @@ const Hero = () => {
             <br className="hidden sm:flex" />
             <span>cutting edge of contact centre business.</span>
           </p>
-          <Button description="Connect with Us" onClick = {handleClick}/>
+          <Button description="Connect with Us" onClick={handleClick} />
         </div>
 
         <div className="hidden md:grid md:grid-cols-2 md:w-[30%] lg:w-[35%] md:gap-3">
