@@ -8,15 +8,11 @@ const lastTwoItems = HeroItems.slice(2);
 
 const Hero = () => {
   const navigate = useNavigate();
-  const handleClick = () => {
-    return navigate("/contact-us");
-  };
-
 
   return (
     <>
       <div
-        className="flex items-center justify-between px-[1rem] py-[5rem] lg:max-w-[1240px] lg:mx-[auto]"
+        className="flex items-center justify-between px-[1rem] py-[5rem] lg:max-w-[1240px] lg:mx-[auto] scrollbar-thumb-sky-700 scrollbar-track-sky-300 "
       >
         <div>
           <h1 className=" font-[exo] text-[#181830] text-4xl sm:text-5xl lg:whitespace-normal lg:text-6xl font-semibold leading-tight">
@@ -37,7 +33,9 @@ const Hero = () => {
             <br className="hidden sm:flex" />
             <span>cutting edge of contact centre business.</span>
           </p>
-          <Button description="Connect with Us" onClick={handleClick} />
+          <a href="https://3cx.logicpointng.com/meet/logicpointmeetings" target="_blank">
+          <Button description="Connect with Us" />
+          </a>
         </div>
 
         <div className="hidden md:grid md:grid-cols-2 md:w-[30%] lg:w-[35%] md:gap-3">

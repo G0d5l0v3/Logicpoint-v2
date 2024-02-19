@@ -1,5 +1,6 @@
 import Button from "../../../components/button/Button";
 import { useNavigate } from "react-router-dom"
+import { motion } from "framer-motion";
 
 const OurCommitment = () => {
   const navigate = useNavigate()
@@ -10,13 +11,16 @@ const OurCommitment = () => {
     <div className="bg-[#181830]">
       <div className="font-[exo] min-h-[70svh] flex flex-col md:flex justify-center pt-[2rem] max-w-[1240px] mx-auto px-[1rem] sm:px-[1rem]">
         <div>
-          <h1
+          <motion.h1
             className="text-white py-[2rem] font-semibold text-3xl sm:text-4xl lg:text-5xl py-[0.3rem] text-[#181830]"
+            initial={{y:-50, opacity:0}}
+            animate={{y:0, opacity:1}}
+            transition={{duration:0.75, ease:"easeInOut"}}
           >
             <span className="border-b-8 border-[#5D1570] ">Our </span>
             <span>Commitment </span>
             <span className="text-[#E87B37]">to You</span>{" "}
-          </h1>
+          </motion.h1>
         </div>
         <div
           className="text-white font-[exo]"

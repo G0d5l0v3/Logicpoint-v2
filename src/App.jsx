@@ -12,13 +12,8 @@ const App = () => {
   const ShopPage = lazy(() => import("./pages/shop-products/ShopPage"));
   const ContactUs = lazy(() => import("./pages/contact-us/ContactUs"));
   const Cart = lazy(() => import("./pages/cart/Cart"));
-  const [isLoading, setIsLoading] = useState(true);
-  useEffect(() => {
-    window.scrollTo(0, 0);
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 200);
-  }, []);
+  const NotFoundPage = lazy(() => import ("./pages/not-found/NotFoundPage"))
+  const ServicesWeOffer = lazy(() => import ("./pages/home/sections/ServicesWeOffer"))
 
   return (
     <>
@@ -39,6 +34,8 @@ const App = () => {
             <Route path="/shop-products" element={<ShopPage />} />
             <Route path="/contact-us" element={<ContactUs />} />
             <Route path="/cart" element={<Cart />} />
+            <Route path="*" element={<NotFoundPage />} />
+            <Route path="/test" element={<ServicesWeOffer />} />
           </Routes>
           <Footer />
         </Suspense>

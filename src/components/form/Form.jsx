@@ -8,7 +8,7 @@ const Form = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+  
     emailjs
       .sendForm(
         "service_9qd1taj",
@@ -19,7 +19,10 @@ const Form = () => {
       .then(
         (result) => {
           console.log(result.text);
-          setShowModal(true); // Show the modal upon successful submission
+          // Show the modal upon successful submission
+          setShowModal(true);
+          // Redirect to external URL
+          window.location.href = 'https://3cx.logicpointng.com/meet/logicpointmeetings';
         },
         (error) => {
           console.log(error.text);
@@ -69,7 +72,7 @@ const Form = () => {
               />
             </div>
             <div className="hidden lg:flex lg:pt-[3rem]">
-              <Button description="Send Message" type="submit" />
+                <Button description="Schedule Meeting" type="submit" />
             </div>
           </div>
 
@@ -84,7 +87,13 @@ const Form = () => {
             />
           </div>
           <div className="pt-[3rem] lg:hidden">
-            <Button description="Send Message" type="submit" />
+            <a
+              href="https://3cx.logicpointng.com/meet/logicpointmeetings"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button description="Schedule Meeting" type="submit" />
+            </a>
           </div>
         </div>
       </form>

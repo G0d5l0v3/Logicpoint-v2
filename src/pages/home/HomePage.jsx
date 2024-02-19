@@ -9,7 +9,7 @@ import OurCommitment from "./sections/OurCommitment";
 import WhatMotivatesUs from "./sections/WhatMotivatesUs";
 import Clients from "./sections/Clients";
 import ClientsItems from "../../components/items/ClientsItem";
-import ReadyToPartner from "../../components/footer/ReadyToPartner";
+import ReadyToPartner from "../../components/footer/ReadyToPartner"
 
 const HomePage = () => {
   const animateEaseIn = {
@@ -28,20 +28,20 @@ const HomePage = () => {
     window.scrollTo(0, 0);
     setTimeout(() => {
       setIsLoading(false);
-    }, 500);
+    }, 1000);
   }, []);
 
 
   return (
     <>
       {isLoading ? (
-        <div className="flex items-center justify-center h-screen w-full">
+        <div className="flex pt-[20rem] justify-center h-screen w-full">
           {" "}
           <Spin
             indicator={
               <LoadingOutlined
                 style={{
-                  fontSize: 24,
+                  fontSize: 30,
                 }}
                 spin
               />
@@ -53,6 +53,7 @@ const HomePage = () => {
           variants={animateEaseIn}
           initial={"hidden"}
           animate={"visible"}
+          className=""
         >
           <Hero />
           <WhatWeDo />

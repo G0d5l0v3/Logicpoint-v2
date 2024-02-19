@@ -29,7 +29,7 @@ const ContactUs = () => {
   return (
     <>
       {isLoading ? (
-        <div className="flex items-center justify-center h-screen w-full">
+        <div className="flex  pt-[20rem] justify-center h-screen w-full">
           <Spin
             indicator={
               <LoadingOutlined
