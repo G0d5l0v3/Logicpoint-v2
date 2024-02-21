@@ -22,7 +22,7 @@ const Clients = ({ images }) => {
               <img
                 src={image.src}
                 alt="companyImg"
-                className={`pr-[5rem] mx-[-20px] ${image.id === 7 ? "w-21 h-6" : ""}`}
+                className={image.style}
               />
             </div>
           ))}

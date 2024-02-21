@@ -44,8 +44,8 @@ const ContactUs = () => {
       ) : (
         <motion.div
         variants={animateEaseIn}
-        initial={"hidden"}
-        animate={"visible"}
+        initial="hidden"
+        animate="visible"
       >
           <GetInTouch items={GetInTouchItems} />
           <Form />

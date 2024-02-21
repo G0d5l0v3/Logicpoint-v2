@@ -19,9 +19,10 @@ const NotFoundPage = () => {
   return (
     <React.Fragment>
       <motion.div
-        className="bg-[#FFFBF6] min-h-screen w-full"
-        initial={"hidden"}
-        animate={"visible"}
+        className="bg-[#FFFBF6] py-[8rem] min-h-screen w-full"
+        variants={animateEaseIn}
+        initial="hidden"
+        animate="visible"
       >
         {/* Result Component for 404 */}
         <Result

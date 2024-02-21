@@ -7,17 +7,6 @@ const WhatWeOffer = ({items}) => {
   const handleNavigate = () => {
     return navigate('/contact-us')
   }
-  const container = {
-    hidden: { opacity: 1, scale: 0 },
-    visible: {
-      opacity: 1,
-      scale: 1,
-      transition: {
-        delayChildren: 0.3,
-        staggerChildren: 0.2
-      }
-    }
-  }
 
   return (
     <div className="relative bg-[#f2f5f8] font-[exo] py-[15rem] md:py-[16rem] lg:py-[18rem]">
